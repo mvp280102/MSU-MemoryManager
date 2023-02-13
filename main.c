@@ -1,6 +1,6 @@
 #include "os-mem.h"
 
-#include <cstdio>
+#include <stdio.h>
 
 int main()
 {
