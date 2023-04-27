@@ -5,7 +5,7 @@
 #define MAX_LINKS_AMOUNT 16
 
 
-// Структура, представляющая объект:
+// Объект.
 typedef struct Object
 {
     char name[33];                  // имя объекта
