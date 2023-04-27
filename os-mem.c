@@ -218,8 +218,8 @@ void print_objects()
 int link(const char* object1_name, const char* object2_name)
 {
     int err_code = 1, req_pos,
-            req_pos1 = bin_search(objects, objects_amount, object1_name),
-            req_pos2 = bin_search(objects, objects_amount, object2_name);
+        req_pos1 = bin_search(objects, objects_amount, object1_name),
+        req_pos2 = bin_search(objects, objects_amount, object2_name);
 
     if ((req_pos1 != - 1) && (req_pos2 != -1) && (objects[req_pos1]->links_amount < MAX_LINKS_AMOUNT))
     {
